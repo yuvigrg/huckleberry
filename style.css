@@ -9,4 +9,57 @@ body {
   padding: 0;
 }
 
+h1, h2, h3 {
+  margin: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
 /* Add styles here! */
+
+/* margin auto top and bottom automatically set as 0*/
+.max-width-wrapper {
+  max-width: 800px;
+  margin: auto; 
+  padding: 0 32px;
+}
+
+.intro-chunk {
+  padding-top: 96px;
+  max-width: 400px;
+}
+
+.intro-chunk p {
+  font-size: 1.25 rem;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 96px 0;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 24px;
+  margin: -24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%)
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  margin-left: -32px;
+  margin-top: -16px;
+  padding:16px 32px;
+  width: fit-content;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%)
+}
+
+header { 
+  border-bottom: 8px solid hsl(0deg, 0%, 40%)
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%)
+}
